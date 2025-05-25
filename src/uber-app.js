@@ -112,11 +112,11 @@ class PaymentGateway {
 }
 
 // --- 시뮬레이션 ---
-const user = new User("이승환", "강남");
+const user = new User("전상원", "강남");
 const rideApp = new RideApp();
 
 // 차량 호출 요청
-user.requestRide(rideApp, "강남역", "서울역");
+user.requestRide(rideApp, "강남역", "성결대학교");
 
 // 10초 후 리뷰 작성 (모의)
 setTimeout(() => {
